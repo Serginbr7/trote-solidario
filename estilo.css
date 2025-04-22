@@ -78,10 +78,27 @@ main {
 
 /* Parágrafo centralizado */
 .paragrafo1 {
-  font-size: 20px;
+  font-size: 4rem;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
   margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(4, 4, 157);
+
+}
+
+.bemvindo {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(4, 4, 157);
+  display: flex;
+  align-items: center;
+  padding-top: 10rem;
 }
 
 /* Rodapé fixo ao fim da tela */
@@ -109,7 +126,6 @@ main {
 }
 
 .container {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5rem;
 }
 
@@ -119,10 +135,222 @@ p + p {
 
 .listaintro{
   margin-top: 2rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.linha {
+  margin-bottom: 2rem;
+  
 }
 
 li + li {
   margin-block-start: 1rem;
+}
+
+.corpotexto{
+  font-size: 20px;
+}
+
+/* Container para a tabela */
+.table-container {
+  max-width: 800px;
+  margin: 30px auto;
+  overflow-x: auto;
+}
+
+/* Estilos para a tabela */
+.trote-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  table-layout: fixed;
+}
+
+.trote-table thead tr {
+  background-color: rgb(6, 0, 117);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.trote-table th,
+.trote-table td {
+  padding: 12px 10px;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+}
+
+.trote-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.trote-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.trote-table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(6, 0, 117);
+}
+
+.trote-table td.etapa {
+  font-weight: bold;
+  background-color: #f8f8f8;
+  width: 25%;
+  vertical-align: top;
+}
+
+.trote-table strong {
+  color: rgb(6, 0, 117);
+}
+
+.corpotexto1 {
+  font-size: 20px;
+  margin-left: 35rem;
+  margin-right: 35rem;
+  padding-bottom: 5rem;
+}
+
+/*aqui estão as tags da aba gincana*/
+
+.numeros {
+  font-weight: bold;
+  color: rgb(5, 5, 175);
+}
+
+p + p {
+  margin-block-start: 2rem;
+}
+
+.Laranja{
+  color: orangered;
+  font-weight: bold;
+}
+
+.Preta{
+  font-weight: bold;
+}
+
+.Roxa{
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.Verde{
+  color: green;
+  font-weight: bold;
+}
+
+.Vermelha{
+  font-weight: bold;
+  color: red;
+}
+
+.negrito{
+  font-weight: bold;
+}
+
+/*tabelas*/
+
+.tabela-container {
+  margin: 30px auto;
+  padding: 10px;
+  max-width: 900px;
+}
+
+.tabela-equipes {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-equipes th {
+  background-color: #00296b;
+  color: white;
+  padding: 10px;
+}
+
+.tabela-equipes td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.tabela-equipes td.laranja {
+  background-color: #ffcc00;
+  font-weight: bold;
+}
+
+.tabela-equipes td.preta {
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+}
+
+.tabela-equipes td.roxa {
+  background-color: #d8b4f8;
+  font-weight: bold;
+}
+
+.tabela-equipes td.verde {
+  background-color: #a0e4a0;
+  font-weight: bold;
+}
+
+.tabela-equipes td.vermelha {
+  background-color: #f87171;
+  font-weight: bold;
+}
+
+.tabela-equipes td.em-breve {
+  color: red;
+  font-weight: bold;
+}
+
+.nota {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: left;
+}
+
+/*outra tabela*/
+
+.tabela-cursos {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-cursos th {
+  background-color: #00296b;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela-cursos td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+/*esse texto aqui ta bugado, sei lá*/
+
+.corpotexto2 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  text-align: center; /* Centralizou o texto */
+}
+
+.centralizar {
+  padding-top: 50px;
+  margin-bottom: -80px;
+  text-align: center;
 }
