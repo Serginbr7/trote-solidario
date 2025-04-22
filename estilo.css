@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,14 +21,13 @@ html, body {
 }
 
 main {
-  flex: 1;
+  padding: 100px 20px 20px;
   max-width: 1000px;
   margin: 30px auto;
-  padding: 120px 20px 20px; /* esse padding-top aqui resolveu! */
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0px;
 }
+
 
 /* Cabeçalho fixo */
 .cabecalhoazul {
@@ -86,6 +85,13 @@ main {
   padding-bottom: 2rem;
   color: rgb(4, 4, 157);
 
+}
+
+.paragrafocentro {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  text-align: center;
 }
 
 .bemvindo {
@@ -344,9 +350,10 @@ p + p {
 
 .corpotexto2 {
   font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px; 
-  text-align: center; /* Centralizou o texto */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .centralizar {
@@ -354,3 +361,146 @@ p + p {
   margin-bottom: -80px;
   text-align: center;
 }
+
+.bloco-kit {
+  background-color: #c1c1c1;
+  border: 1px solid #363636;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.bloco-kit ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bloco-kit .meta {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.regrasentrega{
+  font-size: 15px;
+  max-width: 1000px;
+  margin: auto;
+ 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.eqp-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.eqp-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eqp-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.eqp-table th {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.eqp-table td {
+  text-align: center;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.eqp-laranja   { background-color: #f9a825; color: black; }
+.eqp-preta     { background-color: #000000; color: white; }
+.eqp-roxa      { background-color: #ce93d8; color: black; }
+.eqp-verde     { background-color: #a5d6a7; color: black; }
+.eqp-vermelha  { background-color: #ef5350; color: white; }
+
+.eqp-status {
+  color: red;
+  font-weight: bold;
+}
+
+.eqp-note {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #555;
+  text-align: right;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.eqp-wrapper {
+ 
+  box-shadow: none;
+  padding: 30px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.eqp-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.eqp-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.eqp-table th {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.eqp-table td {
+  text-align: center;
+  padding: 12px;
+  vertical-align: middle;
+}
+
+.eqp-laranja   { background-color: #f9a825; color: black; }
+.eqp-preta     { background-color: #000000; color: white; }
+.eqp-roxa      { background-color: #ce93d8; color: black; }
+.eqp-verde     { background-color: #a5d6a7; color: black; }
+.eqp-vermelha  { background-color: #ef5350; color: white; }
+
+.eqp-status {
+  color: red;
+  font-weight: bold;
+}
+
+.eqp-note {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #555;
+  text-align: right;
+}
+
